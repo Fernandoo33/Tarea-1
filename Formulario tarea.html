@@ -8,10 +8,10 @@
 <body>
     <form>
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre"><br>
+        <input type="text" name="nombre" id="nombre" required autofocus><br>
         <br>
         <label for="pwd">Contraseña</label>
-        <input type="password" name="password" id="password"><br>
+        <input type="password" name="password" id="password" required><br>
         <br>
         <label for="email">Correo Electrónico:</label>
         <input type="email" name="email" id="email"><br>
@@ -45,14 +45,14 @@
         </select><br>
         <br>
         <label for="checkbox">¿Qué lenguaje de programación web conoces?
-        <input type="checkbox" name="HTML5" id="HTML5">Html5
-        <input type="checkbox" name="HTML5" id="HTML5">Css3
-        <input type="checkbox" name="HTML5" id="HTML5">JavaScript
-        <input type="checkbox" name="HTML5" id="HTML5">PHP
-        <input type="checkbox" name="HTML5" id="HTML5">Python
+        <input type="checkbox" name="HTML5" id="HTML5" checked>Html5
+        <input type="checkbox" name="Css3" id="Css3" checked>Css3
+        <input type="checkbox" name="JavaScript" id="JavaScript">JavaScript
+        <input type="checkbox" name="PHP" id="PHP">PHP
+        <input type="checkbox" name="Python" id="Python">Python
         <br>
         <label for="radio">¿Sabes utilizar Python?</label>
-        <input type="radio" name="radio" id="radio">Si
+        <input type="radio" name="radio" id="radio" checked>Si
         <input type="radio" name="radio" id="radio">No
         <br>
         <label for="comentarios">Comentarios</label>
